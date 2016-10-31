@@ -1,7 +1,9 @@
 Supervised learning
 AODE
 Artificial neural network
+neural network
 Backpropagation
+feedfoward
 Autoencoders
 Hopfield networks
 Boltzmann machines
@@ -13,26 +15,33 @@ Bayesian knowledge base
 Case-based reasoning
 Gaussian process regression
 Gene expression programming
-Group method of data handling?(GMDH)
+Group method of data handling
+GMDH
 Inductive logic programming
 Instance-based learning
 Lazy learning
 Learning Automata
 Learning Vector Quantization
 Logistic Model Tree
-Minimum message length?(decision trees, decision graphs, etc.)
+Minimum message length
+decision trees 
+decision graphs
 Nearest Neighbor Algorithm
 Analogical modeling
-Probably approximately correct learning?(PAC) learning
+Probably approximately correct learning
+PAC learning
 Ripple down rules, a knowledge acquisition methodology
-Symbolic machine learning?algorithms
+Symbolic machine learning algorithms
 Support vector machines
 Random Forests
 Ensembles of classifiers
-Bootstrap aggregating?(bagging)
-Boosting (meta-algorithm)
+Bootstrap aggregating
+bagging
+Boosting
+meta-algorithm
 Ordinal classification
-Information fuzzy networks?(IFN)
+Information fuzzy networks
+IFN
 Conditional Random Field
 ANOVA
 Linear classifiers
@@ -91,9 +100,9 @@ Learning Automata
 SARSA
 Deep learning
 Deep belief networks
-Deep?Boltzmann machines
-Deep?Convolutional neural networks
-Deep?Recurrent neural networks
+Boltzmann machines
+Convolutional neural networks
+Recurrent neural networks
 Hierarchical temporal memory
 Others 
 Data Pre-processing
