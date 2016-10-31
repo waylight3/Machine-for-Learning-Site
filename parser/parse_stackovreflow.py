@@ -1,5 +1,8 @@
-import urllib.request, json, sys, os
+import urllib.request, json, sys, os, time
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
 def get_post_by_id(idx):
     try:
@@ -45,17 +48,36 @@ def get_post_by_id(idx):
         return {}
 
 with open('SearchList.txt', 'r') as fp:
-    keys = fp.read().split()
+    keys = fp.read().split('\n')
+
+chrome_path = r'C:\Users\ok\Desktop\chromedriver.exe'
+driver = webdriver.Chrome(chrome_path)
+
+id_list = {}
 
 for key in keys:
-    url = 'http://stackoverflow.com/search?q=%s' % (key)
-    #headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'}
-    headers = {
-    'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'
-    }
-    r = urllib.request.Request(url, headers=headers)
-    p = urllib.request.urlopen(r)
-    html = p.read().decode('utf-8')
+    temp_list = []
+    url='http://stackoverflow.com/search?pagesize=50&q=%s' % key
+    driver.get(url)
+    html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
-    questions = soup.find_all('div', {'class':'question-summary'})
-    print('%s: %d' % (key, len(questions)))
+    spans = soup.find_all('span', {'class':'page-numbers'})
+    try: last_page = int(soup.find_all('span', {'class':'page-numbers'})[-3].text)
+    except: last_page = 1
+    print('%s[%d]: ' % (key, last_page), end='')
+    for page in range(1, last_page + 1):
+        print(page, end=' ', flush=True)
+        url = 'http://stackoverflow.com/search?page=%d&pagesize=50&q=%s' % (page, key)
+        driver.get(url)
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        divs = soup.find_all('div', {'class':'result-link'})
+        for div in divs:
+            temp_list.append(div.span.a['href'].strip().split('/')[2])
+        time.sleep(1)
+    id_list[key] = temp_list
+    time.sleep(1)
+    print()
+with open('id_list.json', 'w') as fp:
+    fp.write(json.dumps(id_list))
+driver.close()
