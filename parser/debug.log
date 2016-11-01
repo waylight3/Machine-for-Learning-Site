@@ -16,3 +16,9 @@
 [1101/083517:ERROR:process_reader_win.cc(114)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다.  (0xc0000022)
 [1101/083517:ERROR:exception_snapshot_win.cc(87)] thread ID 8200 not found in process
 [1101/083517:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1101/214321:ERROR:process_reader_win.cc(114)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다.  (0xc0000022)
+[1101/214321:ERROR:exception_snapshot_win.cc(87)] thread ID 11032 not found in process
+[1101/214321:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1102/013108:ERROR:process_reader_win.cc(114)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다.  (0xc0000022)
+[1102/013108:ERROR:exception_snapshot_win.cc(87)] thread ID 2052 not found in process
+[1102/013108:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed

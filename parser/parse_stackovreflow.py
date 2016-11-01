@@ -28,20 +28,32 @@ def get_post_by_id(idx):
             answers.append(td.find('div').text.strip())
 
         # get views
-        qinfo = soup.find('table', {'id':'qinfo'})
-        view_count = int(qinfo.find_all('tr')[1].find_all('td')[1].p.text.split()[0].strip())
+        try:
+            qinfo = soup.find('table', {'id':'qinfo'})
+            view_count = int(qinfo.find_all('tr')[1].find_all('td')[1].p.text.split()[0].strip())
+        except:
+            view_count = 0
 
         # get votes
-        vote_count = int(soup.find('span', {'class':'vote-count-post '}).text.strip())
+        try:
+            vote_count = int(soup.find('span', {'class':'vote-count-post '}).text.strip())
+        except:
+            vote_count = 0
 
         # get favorites
-        favorite_count = int(soup.find('div', {'class':'favoritecount'}).find('b').text.strip())
+        try:
+            favorite_count = int(soup.find('div', {'class':'favoritecount'}).find('b').text.strip())
+        except:
+            favorite_count = 0
 
         # get tags
         tags = []
-        tags_list = soup.find('div', {'class':'post-taglist'}).find_all('a')
-        for tag in tags_list:
-            tags.append(tag.text.strip())
+        try:
+            tags_list = soup.find('div', {'class':'post-taglist'}).find_all('a')
+            for tag in tags_list:
+                tags.append(tag.text.strip())
+        except:
+            pass
 
         return {'url':url, 'title':title, 'content':content, 'answers':answers, 'answer_count':len(answers), 'view_count':view_count, 'vote_count':vote_count, 'favorite_count':favorite_count, 'tags':tags}
     except:
@@ -56,6 +68,8 @@ driver = webdriver.Chrome(chrome_path)
 id_list = {}
 
 for key in keys:
+    if os.path.exists('ids/%s.json' % key):
+        continue
     temp_list = []
     url='http://stackoverflow.com/search?pagesize=50&q=%s' % key
     driver.get(url)
@@ -76,8 +90,8 @@ for key in keys:
             temp_list.append(div.span.a['href'].strip().split('/')[2])
         time.sleep(1)
     id_list[key] = temp_list
+    with open('%s.json' % key, 'w') as fp:
+        fp.write(json.dumps(temp_list))
     time.sleep(1)
     print()
-with open('id_list.json', 'w') as fp:
-    fp.write(json.dumps(id_list))
 driver.close()
