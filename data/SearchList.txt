@@ -1,10 +1,13 @@
+machine learning
 Supervised learning
 AODE
+support vector machine
+random forest
 Artificial neural network
 neural network
 Backpropagation
 feedfoward
-Autoencoders
+Autoencoder
 Hopfield networks
 Boltzmann machines
 Restricted Boltzmann Machines
@@ -108,3 +111,9 @@ Others
 Data Pre-processing
 List of artificial intelligence projects
 List of datasets for machine learning research
+k-nearest neighbour
+natural language processing
+NLP
+SVM
+Computer Vision
+Support Vectors
