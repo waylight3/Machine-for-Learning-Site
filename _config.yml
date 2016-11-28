@@ -1,58 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title-bold: For Students
-title-normal: Machine Learning
-email: ghk829@hanmail.net
-description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
-baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
-author: 
-street_address: Don't let em in let'em in get out my zone
-city: Shinchon
-state: Seoul
-zip_code: Alzip ho
-country: korea
-phone: (010) 2920-9599
+title: Karna
+desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+url: https://waylight3.github.io/Machine-for-Learning-Site/
+permalink: ':title/'
 
-# Plugins
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages" 
-tiles-count: 6
-
-# Social settings
-500px_url: 
-facebook_url: 
-github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url: 
-slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
-
-# Build settings
 markdown: kramdown
+baseurl: "/karna"
 
-# Plugin: jekyll-seo-tag
-twitter:
-  username: andrewbanchich
-# Add one or more of the following
-facebook:
-  app_id: 
-  publisher: 
-  admins: 
-logo:
-google_site_verification: 
+
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]

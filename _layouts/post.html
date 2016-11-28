@@ -1,36 +1,22 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
-
-<body>
-
-    {% include header.html %} 
-    
-    
-<!-- Main -->
-<div id="main" class="alt">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
-	</div>
-</section>
-
+<div class="page-container">
+   {% if page.img %}
+    <img class="featured-img" src={{ "/images-hq/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+    {% endif %}
+    <div class="content">
+    <article>
+        <h1 class="page-title">{{page.title}}</h1>
+        {% if page.author %}
+        <div class="meta"><span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span><span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> {{page.author}}</span></div>
+        {% endif %}
+        {{page.content | markdownify}}
+    </article>
+            {% if page.categories %}
+                {% include disqus.html %}
+            {% else %}
+            {% endif %}
+    </div>
 </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>
