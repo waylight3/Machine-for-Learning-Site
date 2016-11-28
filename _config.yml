@@ -14,10 +14,10 @@ baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
 url: "https://waylight3.github.io" # the base hostname & protocol for your site
 author: ghk829&waylight3
 street_address: 
-city: 
-state: 이런 내 맘 모르고, 너무해 너무해 TT
+city: 매일 행복하진 않지만
+state: 행복한 일은 매일 있어
 zip_code: 
-country: Korea
+country:
 phone: (010)2920-9599
 
 # Plugins
