@@ -13,9 +13,9 @@ description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
 baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
 url: "https://waylight3.github.io" # the base hostname & protocol for your site
 author: ghk829&waylight3
-street_address: Nono
-city: Shincon
-state: Don't let'em in let'em in get out my zone
+street_address: 
+city: 
+state: 이런 내 맘 모르고, 너무해 너무해 TT
 zip_code: 
 country: Korea
 phone: (010)2920-9599
