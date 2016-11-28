@@ -10,7 +10,7 @@ title-bold: For Students
 title-normal: Machine Learning
 email: youremailaddress@gmail.com
 description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
-baseurl: "https://waylight3.github.io/Machine-for-Learning-Site/" # the subpath of your site, e.g. /blog
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
 author: 
 street_address: 1234 Somewhere Road
