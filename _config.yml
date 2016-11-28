@@ -8,17 +8,17 @@
 # Site settings
 title-bold: For Students
 title-normal: Machine Learning
-email: youremailaddress@gmail.com
+email: ghk829@hanmail.net
 description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
 url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
 author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: Don't let em in let'em in get out my zone
+city: Shinchon
+state: Seoul
+zip_code: Alzip ho
+country: korea
+phone: (010) 2920-9599
 
 # Plugins
 gems:
