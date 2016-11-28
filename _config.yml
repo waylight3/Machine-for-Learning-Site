@@ -9,15 +9,15 @@
 title-bold: For Students
 title-normal: Machine Learning site
 email: ghk829@hanmail.net
-description: 중고등학생을 위한 머신러닝 사이트입니다.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+description: nothing
+baseurl: "https://waylight3.github.io/Machine-for-Learning-Site/" # the subpath of your site, e.g. /blog
 url: "https://waylight3.github.io/Machine-for-Learning-Site/" # the base hostname & protocol for your site
 author: ghk829 & waylight3
-street_address: 네 마음속
+street_address: in your soul
 city: Shinchon
 state: Yonsei
 zip_code: 0000
-country: 대한민국
+country: korea
 phone: (010) 2920-9599
 
 # Plugins
