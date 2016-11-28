@@ -12,7 +12,9 @@ image: assets/images/anaconda.png
 
 ![image1](https://raw.githubusercontent.com/waylight3/Machine-for-Learning-Site/gh-pages/assets/installconda/pic1.png)
 
-위와 같은 버전으로 다운받습니다. 노트북을 파이썬 2기준으로 만들었습니다.
+노트북은 파이썬 2.7을 기준으로 만들었습니다.
+
+
 ![image2](https://raw.githubusercontent.com/waylight3/Machine-for-Learning-Site/gh-pages/assets/installconda/pic2.png)
 
 설정을 위와 같이 하여 설치를 받습니다. 영어로 되어 있긴 하지만 환경변수를 꼭! 설정해야 파이썬 실행이 원활합니다ㅎㅎ
