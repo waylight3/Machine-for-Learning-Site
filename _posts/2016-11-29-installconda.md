@@ -5,6 +5,8 @@ description: 파이썬을 실행하기 전 아나콘다를 설치합니다.
 image: assets/images/anaconda.png
 ---
 
+[자료 다운로드](https://github.com/waylight3/Machine-for-Learning-Site/zipball/master)
+
 먼저 [아나콘다설치](https://www.continuum.io/downloads)를 오른쪽 탭마우스로 들어가서 창을 띄웁니다.
 
 
