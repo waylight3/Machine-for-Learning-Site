@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Forty
-title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title-bold: For Students
+title-normal: Machine Learning site
+email: ghk829@hanmail.net
+description: 중고등학생을 위한 머신러닝 사이트입니다.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
-author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+url: "https://waylight3.github.io/Machine-for-Learning-Site/" # the base hostname & protocol for your site
+author: ghk829 & waylight3
+street_address: 네 마음속
+city: Shinchon
+state: Yonsei
+zip_code: 0000
+country: 대한민국
+phone: (010) 2920-9599
 
 # Plugins
 gems:
@@ -48,7 +48,7 @@ markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: andrewbanchich
+  username: ghk829
 # Add one or more of the following
 facebook:
   app_id: 
