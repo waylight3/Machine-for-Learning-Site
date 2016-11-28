@@ -1,7 +1,7 @@
 ---
 layout: For Students
-title: 중고등학생을 위한 머신러닝 강의
-landing-title: 중고등학생을 위한 머신러닝 강의
+title: 
+landing-title: 
 description: 
 image: 
 author: 
