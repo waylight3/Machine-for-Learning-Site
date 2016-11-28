@@ -33,9 +33,9 @@ nav-menu:
 <section id="two">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>심심할 땐 파이썬</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>현재 사이트가 완성되지 않았습니다. 파이썬 level1까지 완성되었으니 공부하다가 궁금하신 게 있으면 언제든지 이메일주세요.</p>
 		<ul class="actions">
 			<li><a href="{{site.baseurl}}/landing.html" class="button next">Get Started</a></li>
 		</ul>
