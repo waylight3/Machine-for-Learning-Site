@@ -22,6 +22,8 @@ image: assets/images/anaconda.png
 ![image3](https://raw.githubusercontent.com/waylight3/Machine-for-Learning-Site/gh-pages/assets/installconda/pic3.png){:height="200px" width="300px" }
 
 윈도우 창에서 Jupyter notebook에 들어가서 조금 기다리면 인터넷 창으로 노트북 창이 뜹니다.
+
+
 ![image4](https://raw.githubusercontent.com/waylight3/Machine-for-Learning-Site/gh-pages/assets/installconda/pic4.png){:height="200px" width="300px" }
 
 다운받은 자료를 하나하나씩 다운받아 강의를 진행합니다.
