@@ -1,7 +1,7 @@
 ---
-layout: For Students
-title: 
-landing-title: 
+layout: home
+title: Home
+landing-title: Hi, my name is Forty
 description: 
 image: 
 author: 
