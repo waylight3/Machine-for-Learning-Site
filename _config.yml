@@ -7,18 +7,18 @@
 
 # Site settings
 title-bold: For Students
-title-normal: Machine Learning site
-email: ghk829@hanmail.net
-description: nothing
+title-normal: Machine Learning
+email: youremailaddress@gmail.com
+description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
 baseurl: "https://waylight3.github.io/Machine-for-Learning-Site/" # the subpath of your site, e.g. /blog
-url: "https://waylight3.github.io/Machine-for-Learning-Site/" # the base hostname & protocol for your site
-author: ghk829 & waylight3
-street_address: in your soul
-city: Shinchon
-state: Yonsei
-zip_code: 0000
-country: korea
-phone: (010) 2920-9599
+url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+author: 
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
 # Plugins
 gems:
@@ -48,7 +48,7 @@ markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: ghk829
+  username: andrewbanchich
 # Add one or more of the following
 facebook:
   app_id: 
