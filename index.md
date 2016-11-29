@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 학생들을 위한 머신러닝 강의
+landing-title: 학생들을 위한 머신러닝
 description: 
 image: 
 author: 
