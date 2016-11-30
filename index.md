@@ -37,7 +37,7 @@ nav-menu:
 		</header>
 		<p>현재 사이트가 완성되지 않았습니다. 파이썬 level1까지 완성되었으니 공부하다가 궁금하신 게 있으면 언제든지 이메일주세요.</p>
 		<ul class="actions">
-			<li><a href="{{site.baseurl}}/배고플땐 파이썬.html" class="button next">Get Started</a></li>
+			<li><a href="{{site.baseurl}}/심심할땐 파이썬.html" class="button next">Get Started</a></li>
 		</ul>
 	</div>
 </section>
