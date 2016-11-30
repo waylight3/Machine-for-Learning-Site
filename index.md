@@ -7,6 +7,9 @@ image:
 author: 
 nav-menu: 
 ---
+<head>
+<title>중고등학생을 위한 머신러닝</title>
+</head>
 
 <!-- Banner -->
 <section id="banner" class="major">
