@@ -26,25 +26,7 @@
 					padding-left: 0;
 				}
 			}
-		// Disqus comments button
-
-.show-comments {
-    background: transparent;
-    border: 1px dashed $brand-color;
-    cursor: pointer;
-    text-align: center;
-    color: $text-color;
-    font-size: 1.2em;
-    padding: 4px;
-    margin-top: 1em;
-    &:hover{
-       border: 1px dashed $highlight-color;
-    }
-}
-
-.comment {
-    text-align: center;
-}}
+		}
 
 		@include breakpoint(xsmall) {
 			.copyright {
