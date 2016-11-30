@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Forty
-title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
-author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title-bold: For Students
+title-normal: Machine Learning
+email: ghk829@hanmail.net
+description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
+baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
+url: "https://waylight3.github.io" # the base hostname & protocol for your site
+author: ghk829&waylight3
+street_address: 
+city: 매일 행복하진 않지만
+state: 행복한 일은 매일 있어
+zip_code: 
+country:
+phone: (010)2920-9599
 
 # Plugins
 gems:
@@ -29,19 +29,19 @@ gems:
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
-tiles-count: 6
+tiles-count: 100
 
 # Social settings
 500px_url: 
-facebook_url: 
+facebook_url: https://facebook.com
 github_url: 
 gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+googleplus_url: 
 instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: 
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
