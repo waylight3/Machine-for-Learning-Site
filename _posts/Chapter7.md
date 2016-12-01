@@ -11765,9 +11765,9 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Chapter-7-:-Machine-Learning-Concepts">Chapter 7 : Machine Learning Concepts<a class="anchor-link" href="#Chapter-7-:-Machine-Learning-Concepts">&#182;</a></h2><p>** 머신러닝을 하기 위한 준비과정을 잘 준비하였으니, 이제 본격적으로 머신러닝이 무엇인지 알아볼까요?</p>
-<h2 id="&#47672;&#49888;&#47084;&#45789;&#51008;-&#50864;&#47532;&#50640;&#44172;-&#51452;&#50612;&#51652;-X(&#48289;&#53552;)&#46308;&#51032;-&#51665;&#54633;(&#54665;&#47148;)&#51012;-&#53685;&#54616;&#50668;-y(&#49892;&#51228;&#44050;)&#51012;-&#50696;&#52769;&#54616;&#44592;-&#50948;&#54620;-&#48169;&#48277;&#51060;&#50640;&#50836;.">&#47672;&#49888;&#47084;&#45789;&#51008; &#50864;&#47532;&#50640;&#44172; &#51452;&#50612;&#51652; X(&#48289;&#53552;)&#46308;&#51032; &#51665;&#54633;(&#54665;&#47148;)&#51012; &#53685;&#54616;&#50668; y(&#49892;&#51228;&#44050;)&#51012; &#50696;&#52769;&#54616;&#44592; &#50948;&#54620; &#48169;&#48277;&#51060;&#50640;&#50836;.<a class="anchor-link" href="#&#47672;&#49888;&#47084;&#45789;&#51008;-&#50864;&#47532;&#50640;&#44172;-&#51452;&#50612;&#51652;-X(&#48289;&#53552;)&#46308;&#51032;-&#51665;&#54633;(&#54665;&#47148;)&#51012;-&#53685;&#54616;&#50668;-y(&#49892;&#51228;&#44050;)&#51012;-&#50696;&#52769;&#54616;&#44592;-&#50948;&#54620;-&#48169;&#48277;&#51060;&#50640;&#50836;.">&#182;</a></h2><p>그리고 머신러닝의 문제는 크게 두 개로 나뉘어요. 회귀문제(Regression)와 분류문제(Classification)로 나누어지죠.
-두 개 다 처음 듣는 말이라 생소할 수 있어요. 그럼 차근차근히 알아볼까요? **</p>
+<h2 id="Chapter-7-:-Machine-Learning-Concepts">Chapter 7 : Machine Learning Concepts<a class="anchor-link" href="#Chapter-7-:-Machine-Learning-Concepts">&#182;</a></h2><p><strong> 머신러닝을 하기 위한 준비과정을 잘 준비하였으니, 이제 본격적으로 머신러닝이 무엇인지 알아볼까요? </strong></p>
+<h2 id="&#47672;&#49888;&#47084;&#45789;&#51008;-&#50864;&#47532;&#50640;&#44172;-&#51452;&#50612;&#51652;-X(&#48289;&#53552;)&#46308;&#51032;-&#51665;&#54633;(&#54665;&#47148;)&#51012;-&#53685;&#54616;&#50668;-y(&#49892;&#51228;&#44050;)&#51012;-&#50696;&#52769;&#54616;&#44592;-&#50948;&#54620;-&#48169;&#48277;&#51060;&#50640;&#50836;.">&#47672;&#49888;&#47084;&#45789;&#51008; &#50864;&#47532;&#50640;&#44172; &#51452;&#50612;&#51652; X(&#48289;&#53552;)&#46308;&#51032; &#51665;&#54633;(&#54665;&#47148;)&#51012; &#53685;&#54616;&#50668; y(&#49892;&#51228;&#44050;)&#51012; &#50696;&#52769;&#54616;&#44592; &#50948;&#54620; &#48169;&#48277;&#51060;&#50640;&#50836;.<a class="anchor-link" href="#&#47672;&#49888;&#47084;&#45789;&#51008;-&#50864;&#47532;&#50640;&#44172;-&#51452;&#50612;&#51652;-X(&#48289;&#53552;)&#46308;&#51032;-&#51665;&#54633;(&#54665;&#47148;)&#51012;-&#53685;&#54616;&#50668;-y(&#49892;&#51228;&#44050;)&#51012;-&#50696;&#52769;&#54616;&#44592;-&#50948;&#54620;-&#48169;&#48277;&#51060;&#50640;&#50836;.">&#182;</a></h2><p><strong> 그리고 머신러닝의 문제는 크게 두 개로 나뉘어요. 회귀문제(Regression)와 분류문제(Classification)로 나누어지죠.
+두 개 다 처음 듣는 말이라 생소할 수 있어요. 그럼 차근차근히 알아볼까요? </strong></p>
 
 </div>
 </div>
@@ -11783,7 +11783,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
@@ -11813,7 +11813,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
@@ -11827,11 +11827,11 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[136]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.collections.PathCollection at 0x7faff0e8b790&gt;</pre>
+<pre>&lt;matplotlib.collections.PathCollection at 0x7f2b96894210&gt;</pre>
 </div>
 
 </div>
@@ -12004,7 +12004,7 @@ ScJAIEmSMBBIkiQMBJIkCQOBJEkC/j9nQqW63kSA7QAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
@@ -12023,11 +12023,11 @@ ScJAIEmSMBBIkiQMBJIkCQOBJEkC/j9nQqW63kSA7QAAAABJRU5ErkJggg==
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[137]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.collections.PathCollection at 0x7faff0dd4050&gt;</pre>
+<pre>&lt;matplotlib.collections.PathCollection at 0x7f2b92f81d50&gt;</pre>
 </div>
 
 </div>
@@ -12783,7 +12783,7 @@ L+LAzCOd6USjAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[138]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
@@ -12811,11 +12811,11 @@ L+LAzCOd6USjAAAAAElFTkSuQmCC
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[138]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7faff17f10d0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f2b883b7250&gt;]</pre>
 </div>
 
 </div>
@@ -12952,7 +12952,7 @@ hA2BJEnChkCSJGFDIEmSgP8ACeVwurG+aeUAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># x의 계수는?</span>
@@ -12967,7 +12967,7 @@ hA2BJEnChkCSJGFDIEmSgP8ACeVwurG+aeUAAAAASUVORK5CYII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[139]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12993,7 +12993,7 @@ hA2BJEnChkCSJGFDIEmSgP8ACeVwurG+aeUAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[140]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">linearmodel</span><span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
@@ -13021,11 +13021,11 @@ hA2BJEnChkCSJGFDIEmSgP8ACeVwurG+aeUAAAAASUVORK5CYII=
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[140]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7faff1213710&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f2b968a6410&gt;]</pre>
 </div>
 
 </div>
@@ -13304,7 +13304,7 @@ jIKcAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
@@ -13328,11 +13328,11 @@ jIKcAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[149]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.text.Text at 0x7faff077af10&gt;</pre>
+<pre>&lt;matplotlib.text.Text at 0x7f2b881f2c90&gt;</pre>
 </div>
 
 </div>
