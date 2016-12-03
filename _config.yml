@@ -9,7 +9,7 @@
 title-bold: For Students
 title-normal: Machine Learning
 email: ghk829@hanmail.net
-description: 중고등학생을 위한 머신러닝 강의 사이트입니다.
+description: 괄호에 있는 순서를 따라 진행해주세요. Anaconda 설치 필수!
 baseurl: "/Machine-for-Learning-Site" # the subpath of your site, e.g. /blog
 url: "https://waylight3.github.io" # the base hostname & protocol for your site
 author: ghk829&waylight3
