@@ -8,7 +8,7 @@ author:
 nav-menu: 
 ---
 <head>
-<title>학생을 위한 머신러닝</title>
+<title>학생을 위한 머신러닝22</title>
 </head>
 
 <!-- Banner -->
